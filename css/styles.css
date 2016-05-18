@@ -1,0 +1,453 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #4a4a4a;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  display: block;
+  max-width: 71%;
+  margin: 0 auto;
+}
+
+.main-header {
+  width: 100%;
+  background: #3498db;
+  padding-top: 10%;
+  padding-bottom: 5%;;
+  overflow: auto;
+}
+
+h1 {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: 0;
+  color: #fafafa;
+}
+
+h4 {
+  margin-bottom: 40px;
+  color: #fafafa;
+}
+
+p {
+  color: #fafafa;
+  font-size: 16px
+}
+
+nav {
+  background: #3498db;
+}
+
+nav > p {
+  padding-bottom: 10%;
+}
+
+footer {
+  background: #3498db;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+/* ================================= 
+  Main Styles
+==================================== */
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-nav {
+  margin: 0;
+}
+
+.main-nav a {
+  display: block;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.main-nav li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #fafafa;
+}
+
+.main-nav li:nth-child(1n+2) {
+  margin-top: 3%;
+}
+
+.about {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+#profile-image {
+  width: 70%;
+  display: inline-block;
+  border: 5px solid #fafafa;
+  border-radius: 5px;
+}
+
+#portfolio h4 {
+  color: #4a4a4a;
+}
+
+
+.card {
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  padding-top: 5%;
+}
+
+.card p {
+  font-size: 20px;
+  color: #BDC3C7;
+}
+
+#skills {
+  background-color: #fafafa;
+  max-width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+#skills h3 {
+  margin-bottom: 3%;
+}
+
+#skills p {
+  color: #BDC3C7;
+  padding-bottom: 5%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 90%;
+  margin-bottom: 20px;
+  border: dashed 1px #3498db;
+}
+
+.skill div {
+  margin: 0;
+  padding: 5px;
+  color: white;
+}
+
+#HTML {
+  width: 80%;
+  background-color: tomato;
+}
+
+#CSS {
+  width: 75%;
+  background-color: #9b59b6;
+}
+
+#Javascript {
+  width: 40%;
+  background-color: #16a085;
+}
+
+#Wordpress {
+  width: 65%;
+  background-color: #34495e;
+}
+
+#Photoshop {
+  width: 90%;
+  background-color: #5dade2;
+}
+
+#Illustrator {
+  width: 80%;
+  background-color: #f5b041;
+}
+
+#contact {
+  margin-top: 20px;
+}
+
+#contact li:first-child {
+  padding-bottom: 20px;
+}
+
+#contact span {
+  padding-right: 15px;
+  color: #fafafa;
+}
+
+#contact p {
+  padding-bottom: 10px;
+}
+
+footer h5 {
+  display: inline-block;
+  width: 90px;
+  float: left;
+  margin: 0;
+  color: #fafafa;
+}
+
+footer h5:last-child {
+  float: right;
+}
+
+.main-footer {
+  border-top: solid 1px #fafafa;
+  margin: 40px 0;
+  padding: 20px 0;
+}
+
+.main-footer ul {
+  display: inline-block;
+  float: right; 
+ }
+
+.main-footer li {
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.main-footer li:nth-child(-n+4) {
+  display: none;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px),
+       (orientation: landscape) {
+  h1 {
+    padding-bottom: 5%;
+  }
+  
+  .main-nav {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  .main-nav a {
+    color: #fafafa; 
+  }
+
+  .main-nav li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    float: left;
+    background-color: transparent;
+  }
+
+  .main-nav li:nth-child(1n+2) {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 20px;
+  }
+  
+  .main-header {
+    padding-top: 5%;
+  }
+
+  #profile-image {
+    width: 38%;
+    max-width: 300px;
+    float: right;
+    margin-right: 5%;
+  }
+  
+  .about {
+    max-width: 45%;
+    margin-left: 7%;
+  }
+
+  .about p {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  header {
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .container {
+    padding-left: 3%;
+  }
+  
+  h4 {
+    padding-right: 4%;
+  }
+
+  .card {
+    width: 45%;
+	  display: inline-block;
+	  float: left;
+	  vertical-align: top;
+  }
+  
+  .nine {
+    display: none;
+  }
+
+  .one, .three, .five, .seven, .nine {
+	padding: 1em .5em 0 1em;
+  }
+
+  .two, .four, .six, .eight {
+	padding: 1em 1em 0 .5em;
+  }
+  
+  #skills p {  
+    max-width: 95%;
+  }
+  
+  .skill {
+  margin: 0 auto;
+  width: 45%;
+  display: inline-block;
+  max-width: 90%;
+  margin-bottom: 20px;
+  border: dashed 1px #3498db;
+  }
+  
+  .skill:nth-child(odd) {
+    margin-right: 5px;
+  }
+  .skill:nth-child(even) {
+    margin-left: 5px;
+  }
+  
+  footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  
+  .main-footer li:nth-child(-n+4) {
+    display: inline-block;
+  }
+  
+  .main-footer li:last-child {
+    display: none;
+  }
+  
+  .clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+@media (min-width: 1024px) {
+
+  body {
+    background-color: #3498db;
+  }
+
+  nav {
+  padding: 10% 2% 0 0;
+  }
+
+  h1 {
+    display: inline;
+    float: left;
+    padding: 0 0 5% 8%;;
+  }
+
+  .main-nav {
+    display: inline;
+    float: right;
+    padding-right: 5%;
+  }
+
+  .main-nav a {
+    color: #fafafa;
+  }
+
+  .main-header {
+    padding-top: 0;
+  }
+
+  #profile-image {
+    display: inline-block;
+    width: 35%;
+    float: right;
+  }
+
+
+  #portfolio {
+    background-color: white;
+    padding: 20px;
+  }
+
+  h4 {
+    padding: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .card {
+	max-width: 30%;
+	float: none;
+	display: inline-block;
+	position: relative;
+	margin: .5em;
+	padding: 0;
+  }
+  
+  #skills {
+    margin-top: 5%;
+  } 
+
+  .skill {
+  width: 30%;
+  max-width: 80%;
+  margin-bottom: 20px;
+  border: dashed 1px #3498db;
+  display: inline-block;
+  }
+
+  .skill:nth-child(odd) {
+    margin-right: 0;
+  }
+  
+  .skill:nth-child(even) {
+    margin: 0 10px 0 10px;
+  }
+}
