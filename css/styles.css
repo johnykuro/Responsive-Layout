@@ -30,7 +30,7 @@ li {
   width: 100%;
   background: #3498db;
   padding-top: 10%;
-  padding-bottom: 5%;;
+  padding-bottom: 5%;
   overflow: auto;
 }
 
@@ -42,13 +42,14 @@ h1 {
 }
 
 h4 {
-  margin-bottom: 40px;
-  color: #fafafa;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	color: #4a4a4a;
 }
 
 p {
   color: #fafafa;
-  font-size: 16px
+  font-size: 16px;
 }
 
 nav {
@@ -89,6 +90,7 @@ footer {
   padding-top: 5px;
   padding-bottom: 5px;
   background: #fafafa;
+  text-transform: uppercase;
 }
 
 .main-nav li:nth-child(1n+2) {
@@ -195,6 +197,10 @@ footer {
 
 #contact {
   margin-top: 20px;
+}
+
+#contact h4 {
+	color: #fafafa;	
 }
 
 #contact li:first-child {
@@ -315,9 +321,9 @@ footer h5:last-child {
 
   .card {
     width: 45%;
-	  display: inline-block;
-	  float: left;
-	  vertical-align: top;
+	display: inline-block;
+	float: left;
+	vertical-align: top;
   }
   
   .nine {
@@ -337,12 +343,12 @@ footer h5:last-child {
   }
   
   .skill {
-  margin: 0 auto;
-  width: 45%;
-  display: inline-block;
-  max-width: 90%;
-  margin-bottom: 20px;
-  border: dashed 1px #3498db;
+	  margin: 0 auto;
+	  width: 45%;
+	  display: inline-block;
+	  max-width: 90%;
+	  margin-bottom: 20px;
+	  border: dashed 1px #3498db;
   }
   
   .skill:nth-child(odd) {
@@ -436,11 +442,11 @@ footer h5:last-child {
   } 
 
   .skill {
-  width: 30%;
-  max-width: 80%;
-  margin-bottom: 20px;
-  border: dashed 1px #3498db;
-  display: inline-block;
+	  width: 30%;
+	  max-width: 80%;
+	  margin-bottom: 20px;
+	  border: dashed 1px #3498db;
+	  display: inline-block;
   }
 
   .skill:nth-child(odd) {
