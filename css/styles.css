@@ -26,6 +26,10 @@ li {
   margin: 0 auto;
 }
 
+header {
+	background-color: #3498db;
+}
+
 .main-header {
   width: 100%;
   background: #3498db;
@@ -39,6 +43,10 @@ h1 {
   padding-bottom: 10%;
   margin: 0;
   color: #fafafa;
+}
+
+h2 {
+	display: none;
 }
 
 h4 {
@@ -136,8 +144,7 @@ footer {
   background-color: #fafafa;
   max-width: 90%;
   padding: 20px;
-  margin: 0 auto;
-  margin-bottom: 5%;
+  margin: 0 auto 5%;
 }
 
 #skills h3 {
@@ -213,24 +220,23 @@ footer {
 }
 
 #contact p {
-  padding-bottom: 10px;
+  padding: 0 5px 10px 5px;
 }
 
-footer h5 {
+footer #name {
   display: inline-block;
-  width: 90px;
   float: left;
   margin: 0;
   color: #fafafa;
 }
 
-footer h5:last-child {
+footer #name:last-child {
   float: right;
 }
 
 .main-footer {
   border-top: solid 1px #fafafa;
-  margin: 40px 0;
+  margin: 40px 5% 0 5%;
   padding: 20px 0;
 }
 
@@ -243,6 +249,7 @@ footer h5:last-child {
   text-align: left;
   padding-left: 10px;
   font-weight: bold;
+  max-width: 200px;
 }
 
 .main-footer li:nth-child(-n+4) {
@@ -307,7 +314,6 @@ footer h5:last-child {
   }
   
   header {
-    padding-bottom: 5%;
     margin-bottom: 5%;
   }
   
@@ -362,7 +368,16 @@ footer h5:last-child {
     padding-top: 20px;
     padding-bottom: 50px;
   }
-  
+
+  #contact {
+  	padding-left: 4%;
+  	padding-right: 4%;
+  }
+
+  #contact h4 {
+  	padding-left: 5%;
+  }
+
   .main-footer li:nth-child(-n+4) {
     display: inline-block;
   }
@@ -391,7 +406,11 @@ footer h5:last-child {
   h1 {
     display: inline;
     float: left;
-    padding: 0 0 5% 8%;;
+    padding-left: 7%;
+  }
+
+  header {
+  	margin: 0;
   }
 
   .main-nav {
@@ -455,5 +474,13 @@ footer h5:last-child {
   
   .skill:nth-child(even) {
     margin: 0 10px 0 10px;
+  }
+
+  #contact, #contact h4 {
+  	padding: 0;
+  }
+
+  .main-footer {
+  	margin: 40px 5% 0 5%;
   }
 }
