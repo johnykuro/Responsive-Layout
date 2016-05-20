@@ -260,7 +260,7 @@ footer #name:last-child {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px),
+@media (min-width: 768px),
        (orientation: landscape) {
   h1 {
     padding-bottom: 5%;
